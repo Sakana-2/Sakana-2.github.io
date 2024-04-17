@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAKATA KOJI'S PORTFOLIO</title>
+    <style>
+      body,
+      p {
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <object data="./logo.svg" type="text/svg"></object>
+    </header>
+    <main>
+      <a
+        class="work"
+        id="work1"
+        href="https://github.com/Sakana-2/CPP_CV"
+        target="_blank"
+      >
+        <img src="./photo1.jpg" />
+        <div class="explanation">
+          <span>簡易画像加工ソフト</span>
+          <object data="./link.svg" type="text/svg"></object>
+        </div>
+      </a>
+      <a
+        class="work"
+        id="work2"
+        href="https://github.com/Sakana-2/Ray"
+        target="_blank"
+      >
+        <img src="./photo2.bmp" />
+        <div class="explanation">
+          <span>CGレンダラー</span>
+          <object data="./link.svg" type="text/svg"></object>
+        </div>
+      </a>
+      <div id="texts">
+        <p>私は、漫画に使えるテクノロジーに興味があり、これまで、基本的な2D画像処理や、写実的なCGのレンダリング技術について勉強をしてきました。</p>
+
+        <p>
+          その過程で、上記の簡易的な画像加工ソフトやCGレンダラーを作りました。<br />
+          この画像加工ソフトはグレースケールのみ対応していて、ぼかしや輪郭検出、閾値処理、鮮鋭化やディザリングなどが行えます。<br />
+          CGレンダラーでは素材は完全拡散反射と完全鏡面反射、形状は球体、面、三角形を設定できます。現在勉強しながら開発を進めているものです。
+        </p>
+
+        <p>
+          この二つを勉強してきた理由としては、画像処理については実際の写真を加工し背景として使う技術に興味があったためです。写実的なCG技術については、
+          この技術の応用例として<a target="_blank" href="http://lines.rexwe.st/"
+            >Physically-based Feature Line Rendering</a
+          >という漫画に使えるような技術を知ったためです。
+        </p>
+
+        <p>
+          また、趣味でWeb制作を勉強していたことがあり、React、Vue、Flask、Firebaseの使用経験があります。
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

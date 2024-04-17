@@ -1,0 +1,104 @@
+body{
+  user-select: none;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "YuGothic", "ヒラギノ角ゴ ProN", sans-serif;
+}
+
+main {
+  text-align: center;
+  line-height: 1.7;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.work {
+  position: relative;
+  display: inline-block;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #ccc;
+  background-size: cover;
+  user-select: none;
+  background-color: black;
+  margin: 5px;
+}
+
+a.work img {
+  width: 450px;
+  height: 450px;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+a.work:hover img {
+  opacity: 0.8;
+}
+
+div.explanation {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  line-height: 150px;
+  height: 150px;
+}
+
+div.explanation span {
+  color: white;
+}
+
+div.explanation object {
+  width: 1em;
+  height: 1em;
+}
+
+div#texts {
+  margin-block-start: 40px;
+  display: inline-block;
+  user-select: text;
+}
+
+div#texts p {
+  font-weight:500;
+  margin-block-end: 25px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+  header object {
+    height: 56px;
+    width: auto;
+  }
+
+  div#texts {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  header object {
+    width: 90%;
+    height: auto;
+  }
+
+  a.work {
+    width: 100%;
+    height: auto;
+  }
+  a.work img {
+    width: 100%;
+    height: auto;
+  }
+
+  div#texts {
+    width: 90%;
+  }
+}
