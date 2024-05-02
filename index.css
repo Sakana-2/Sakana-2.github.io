@@ -61,11 +61,13 @@ div#texts {
   margin-block-start: 40px;
   display: inline-block;
   user-select: text;
+  text-align: left;
 }
 
 div#texts p {
   font-weight:500;
   margin-block-end: 25px;
+  text-indent: 1em;
 }
 
 
